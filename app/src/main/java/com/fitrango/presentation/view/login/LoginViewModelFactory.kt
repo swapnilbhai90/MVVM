@@ -1,4 +1,4 @@
-package com.fitrango.presentation.view
+package com.fitrango.presentation.view.login
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider

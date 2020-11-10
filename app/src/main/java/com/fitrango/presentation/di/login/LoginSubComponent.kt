@@ -1,6 +1,7 @@
 package com.triplerice.recco.presentation.di.movie
 
-import com.fitrango.presentation.view.LoginActivity
+import com.fitrango.presentation.view.login.LoginActivity
+import com.fitrango.presentation.view.splash.SplashActivity
 import dagger.Subcomponent
 
 @LoginScope

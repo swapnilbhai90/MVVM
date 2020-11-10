@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "271858497497",
+    "firebase_url": "https://fitrango-30021.firebaseio.com",
+    "project_id": "fitrango-30021",
+    "storage_bucket": "fitrango-30021.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:271858497497:android:3f8520950be28cca978bc8",
+        "android_client_info": {
+          "package_name": "com.fitrango"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "271858497497-ec7ld50gjp25hutkubc2baqb5pbc4fpd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fitrango",
+            "certificate_hash": "e85f5a1c72e0544e96927834bb1e88c57751b7a8"
+          }
+        },
+        {
+          "client_id": "271858497497-7ljplsvll5gbsbtjrih8i7cetpjbd5u3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEpkF5DvAkKSIHQeFg8k3M4kGTQduLzEI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "271858497497-7ljplsvll5gbsbtjrih8i7cetpjbd5u3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

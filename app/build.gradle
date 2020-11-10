@@ -2,6 +2,7 @@ apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 apply plugin: 'kotlin-kapt'
+apply plugin: 'com.google.gms.google-services'
 
 android {
 
@@ -20,6 +21,7 @@ android {
         targetSdkVersion 29
         versionCode 1
         versionName "1.0"
+        multiDexEnabled true
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -80,6 +82,15 @@ dependencies {
     //Glide
     implementation "com.github.bumptech.glide:glide:$Glide_version"
     kapt "com.github.bumptech.glide:compiler:$Glide_version"
+    //fcm
+    implementation 'com.google.firebase:firebase-analytics:17.5.0'
+    //facebook
+    implementation 'com.facebook.android:facebook-android-sdk:[5,6)'
+    //multidex
+    implementation 'com.android.support:multidex:1.0.3'
 
+    //google
+    implementation 'com.google.firebase:firebase-auth:19.4.0'
+    implementation 'com.google.android.gms:play-services-auth:18.1.0'
 
 }

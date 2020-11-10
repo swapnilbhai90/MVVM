@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Fitrango New</string>
+    <string name="facebook_app_id">626790644677909</string>
+    <string name="fb_login_protocol_scheme">fb626790644677909</string>
+    <string name="server_client_id">AIzaSyAEpkF5DvAkKSIHQeFg8k3M4kGTQduLzEI</string>
+    <string name="app_title">Fitrango</string>
+
 </resources>
