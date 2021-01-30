@@ -7,6 +7,10 @@
     <color name="white">#FFFF</color>
     <color name="black">#000</color>
     <color name="green_theme_color">#AAFF00</color>
+    <color name="app_grey">#BABABA</color>
+    <color name="light_grey">#5c5c5c</color>
+    <color name="hint_color_grey">#d0d0d0</color>
+    <color name="red_error_color">#ff0000</color>
 
 
 </resources>

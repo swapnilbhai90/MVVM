@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <dimen name="dp_half">0.5dp</dimen>
+    <dimen name="dp_1">1dp</dimen>
+    <dimen name="dp_2">2dp</dimen>
+    <dimen name="dp_3">3dp</dimen>
+    <dimen name="dp_4">4dp</dimen>
+    <dimen name="dp_5">5dp</dimen>
+    <dimen name="dp_6">6dp</dimen>
+    <dimen name="dp_7">7dp</dimen>
+    <dimen name="dp_8">8dp</dimen>
+    <dimen name="dp_9">9dp</dimen>
+    <dimen name="dp_negative_10">-10dp</dimen>
+    <dimen name="dp_10">10dp</dimen>
+    <dimen name="dp_12">12dp</dimen>
+    <dimen name="dp_13">13dp</dimen>
+    <dimen name="dp_14">14dp</dimen>
+    <dimen name="dp_15">15dp</dimen>
+    <dimen name="dp_16">16dp</dimen>
+    <dimen name="dp_17">17dp</dimen>
+    <dimen name="dp_20">20dp</dimen>
+    <dimen name="dp_21">21dp</dimen>
+    <dimen name="dp_22">22dp</dimen>
+    <dimen name="dp_24">24dp</dimen>
+    <dimen name="dp_25">25dp</dimen>
+    <dimen name="dp_26">26dp</dimen>
+    <dimen name="dp_27">27dp</dimen>
+    <dimen name="dp_28">28dp</dimen>
+    <dimen name="dp_29">29dp</dimen>
+    <dimen name="dp_30">30dp</dimen>
+    <dimen name="dp_32">32dp</dimen>
+    <dimen name="dp_35">35dp</dimen>
+    <dimen name="dp_37">37dp</dimen>
+    <dimen name="dp_38">38dp</dimen>
+    <dimen name="dp_39">39dp</dimen>
+    <dimen name="dp_40">40dp</dimen>
+    <dimen name="dp_45">45dp</dimen>
+    <dimen name="dp_49">49dp</dimen>
+    <dimen name="dp_50">50dp</dimen>
+    <dimen name="dp_56">56dp</dimen>
+    <dimen name="dp_57">57dp</dimen>
+    <dimen name="dp_60">60dp</dimen>
+    <dimen name="dp_65">65dp</dimen>
+    <dimen name="dp_66">66dp</dimen>
+    <dimen name="dp_68">68dp</dimen>
+    <dimen name="dp_75">75dp</dimen>
+    <dimen name="dp_80">80dp</dimen>
+    <dimen name="dp_85">85dp</dimen>
+    <dimen name="dp_88">88dp</dimen>
+    <dimen name="dp_100">100dp</dimen>
+    <dimen name="dp_110">110dp</dimen>
+    <dimen name="dp_150">150dp</dimen>
+    <dimen name="dp_136">136dp</dimen>
+    <dimen name="dp_138">138dp</dimen>
+    <dimen name="dp_175">175dp</dimen>
+    <dimen name="dp_190">190dp</dimen>
+    <dimen name="dp_200">200dp</dimen>
+    <dimen name="dp_205">205dp</dimen>
+    <dimen name="dp_210">210dp</dimen>
+    <dimen name="dp_238">238dp</dimen>
+    <dimen name="dp_250">250dp</dimen>
+    <dimen name="dp_315">315dp</dimen>
+    <dimen name="connect_invitation_card_width" tools:ignore="MissingDefaultResource">266dp</dimen>
+    <dimen name="connect_invitation_card_height" tools:ignore="MissingDefaultResource">414dp</dimen>
+
+    <dimen name="setting_vehicle_card_width">135dp</dimen>
+    <dimen name="setting_vehicle_card_height">158dp</dimen>
+
+    <dimen name="sp_9">9sp</dimen>
+    <dimen name="sp_10">10sp</dimen>
+    <dimen name="sp_11">11sp</dimen>
+    <dimen name="sp_12">12sp</dimen>
+    <dimen name="sp_13">13sp</dimen>
+    <dimen name="sp_14">14sp</dimen>
+    <dimen name="sp_15">15sp</dimen>
+    <dimen name="sp_16">16sp</dimen>
+    <dimen name="sp_17">17sp</dimen>
+    <dimen name="sp_18">18sp</dimen>
+    <dimen name="sp_20">20sp</dimen>
+    <dimen name="sp_22">22sp</dimen>
+    <dimen name="sp_24">24sp</dimen>
+    <dimen name="sp_25">25sp</dimen>
+    <dimen name="sp_26">26sp</dimen>
+    <dimen name="sp_30">30sp</dimen>
+    <dimen name="sp_40">40sp</dimen>
+    <dimen name="sp_60">60sp</dimen>
+    <dimen name="sp_63">63sp</dimen>
+
+    <!-- Custom pin input default dimens -->
+    <dimen name="pin_view_item_spacing">16dp</dimen>
+
+    <!-- Set password dimens -->
+    <dimen name="pwd_state_indicator_size">6dp</dimen>
+
+    <!-- Generic Alert Dialog dimens -->
+    <dimen name="alert_dialog_corner_radius">2dp</dimen>
+    <dimen name="alert_dialog_divider_height">0.5dp</dimen>
+    <dimen name="alert_dialog_btn_view_height">40dp</dimen>
+    <dimen name="alert_dialog_title_size">20sp</dimen>
+    <dimen name="alert_dialog_message_size">16sp</dimen>
+    <dimen name="alert_dialog_btn_text_size">14sp</dimen>
+
+    <dimen name="margin_top_input_fields">25dp</dimen>
+
+    <dimen name="biometric_bg_size">20dp</dimen>
+    <dimen name="biometric_bottom_sheet_padding">16dp</dimen>
+
+    <!-- Button dimens -->
+    <dimen name="button_height">54dp</dimen>
+
+    <!-- Splash Screen -->
+    <dimen name="splash_screen_width">233dp</dimen>
+    <dimen name="splash_screen_height">50dp</dimen>
+
+    <!-- Action Bar dimens -->
+
+    <!-- Profile dimens -->
+    <dimen name="card_selected_border_size">1.5dp</dimen>
+    <dimen name="card_button_height">44dp</dimen>
+    <dimen name="card_background_width">190dp</dimen>
+
+    <dimen name="profile_details_image_width">185dp</dimen>
+    <dimen name="profile_details_image_height">133dp</dimen>
+    <dimen name="profile_image_height">235dp</dimen>
+
+    <dimen name="action_bar_profile_image_size">28dp</dimen>
+
+    <!-- Set Mpin -->
+
+    <!-- Edit Profile dimens -->
+    <dimen name="gender_selection_lbl_text_size">16sp</dimen>
+    <dimen name="gender_selection_radio_btn_text_size">14sp</dimen>
+    <dimen name="guest_profile_image_size">25dp</dimen>
+
+    <dimen name="guest_user_edit_profile_size">60dp</dimen>
+
+
+    <dimen name="dashboard_car_details_text">14sp</dimen>
+    <dimen name="dashboard_car_details_value">20sp</dimen>
+
+    <dimen name="rippleStrokeWidth">2dp</dimen>
+    <dimen name="rippleRadius">64dp</dimen>
+
+    <!--no internet dialog-->
+    <dimen name="retry_button_margin_bottom">25dp</dimen>
+
+    <dimen name="speedometer_view_width">110dp</dimen>
+    <dimen name="speedometer_view_height">110dp</dimen>
+    <dimen name="custom_speedometer_top_padding">7dp</dimen>
+    <dimen name="custom_speedometer_padding">8dp</dimen>
+    <dimen name="custom_speedometer_limit_size">42dp</dimen>
+    <dimen name="custom_speedometer_speed_text_size">28sp</dimen>
+
+    <dimen name="bottom_navigation_bar_height">49dp</dimen>
+
+    <dimen name="optional_alert_height" tools:ignore="MissingDefaultResource">56dp</dimen>
+    <dimen name="guest_user_card_width" tools:ignore="MissingDefaultResource">300dp</dimen>
+    <dimen name="header_text_size">30sp</dimen>
+
+    <dimen name="alert_icons_height_width">25dp</dimen>
+    <dimen name="alert_icons_height_width_adapter">40dp</dimen>
+    <dimen name="alert_icons_height_width_fuel">15dp</dimen>
+    <dimen name="circular_button_size" tools:ignore="MissingDefaultResource">48dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="thumbRadius">100dp</dimen>
+    <dimen name="thumbTextSize">50sp</dimen>
+
+    <dimen name="arrow_width">15dp</dimen>
+
+    <dimen name="svt_white_width">170dp</dimen>
+    <dimen name="svt_white_height">39dp</dimen>
+
+    <!-- Geofence dimens -->
+    <dimen name="geofence_outline_width">0.5dp</dimen>
+    <dimen name="create_geofence_btn_height">40dp</dimen>
+
+    <!--Remote Ac dimens-->
+    <dimen name="refresh_btn_width">30dp</dimen>
+    <dimen name="refresh_btn_height">30dp</dimen>
+    <dimen name="days_height">38dp</dimen>
+    <dimen name="days_width">38dp</dimen>
+    <!-- FilterRangeSeekbar dimens -->
+    <dimen name="thumb_width">20dp</dimen>
+    <dimen name="thumb_height">20dp</dimen>
+    <dimen name="default_stroke_width">7dp</dimen>
+    <dimen name="default_background_stroke_width">3dp</dimen>
+
+    <!--Schedule Ac-->
+    <dimen name="schedule_toggle_off_width">51dp</dimen>
+    <dimen name="schedule_toggle_off_height">31dp</dimen>
+    <dimen name="schedule_btn_height">40dp</dimen>
+    <dimen name="margin_top_temp">50dp</dimen>
+    <dimen name="margin_top_schedule_days">30dp</dimen>
+    <dimen name="margin_top_ev_battery">60dp</dimen>
+    <dimen name="margin_bottom_schedule_btn">25dp</dimen>
+    <dimen name="margin_top_repeat">30dp</dimen>
+    <dimen name="margin_left_days">20dp</dimen>
+    <dimen name="days_list_height">30dp</dimen>
+    <dimen name="days_list_width">30dp</dimen>
+    <dimen name="margin_no_image">50dp</dimen>
+    <dimen name="margin_days_list">20dp</dimen>
+
+    <!--Merge trips-->
+    <dimen name="category_width">85dp</dimen>
+    <dimen name="category_height">60dp</dimen>
+    <dimen name="check_box_width">20dp</dimen>
+    <dimen name="check_box_height">20dp</dimen>
+
+    <!--Share My Trip-->
+    <dimen name="change_album_size">12sp</dimen>
+    <dimen name="toolbar_elevation">6dp</dimen>
+    <dimen name="camera_icon_size">40dp</dimen>
+    <dimen name="camera_text_size">14sp</dimen>
+    <dimen name="card_elevation">0dp</dimen>
+    <dimen name="card_corner_radius">4dp</dimen>
+
+    <dimen name="gallery_image_width">11dp</dimen>
+    <dimen name="gallery_image_height">15dp</dimen>
+    <dimen name="schedule_btn_link_height">56dp</dimen>
+
+    <dimen name="share_trip_view_pager_height">350dp</dimen>
+    <dimen name="margin_top_share_btn">50dp</dimen>
+    <dimen name="margin_start_trip_statistic">10dp</dimen>
+    <dimen name="toggle_off_height_trip">15dp</dimen>
+
+    <!--Shimmer dimensions-->
+    <dimen name="shimmer_box_height">180dp</dimen>
+    <dimen name="shimmer_large_text_height">20dp</dimen>
+    <dimen name="shimmer_large_text_width">200dp</dimen>
+    <dimen name="shimmer_small_text_height">10dp</dimen>
+    <dimen name="shimmer_small_text_width">290dp</dimen>
+    <dimen name="shimmer_circle_width">50dp</dimen>
+    <dimen name="shimmer_circle_height">50dp</dimen>
+    <dimen name="shimmer_history_text_width">160dp</dimen>
+    <dimen name="shimmer_text_vehicle_detail_height">35dp</dimen>
+    <dimen name="shimmer_highlight_width">300dp</dimen>
+
+</resources>

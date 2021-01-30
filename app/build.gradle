@@ -32,9 +32,14 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+
+    dataBinding {
+        enabled = true
+    }
 }
 
 dependencies {
+    implementation 'androidx.viewpager2:viewpager2:1.0.0'
     def lifecycle_version = "2.2.0"
     def arch_version = "2.1.0"
     def room_version = "2.2.5"
@@ -92,5 +97,8 @@ dependencies {
     //google
     implementation 'com.google.firebase:firebase-auth:19.4.0'
     implementation 'com.google.android.gms:play-services-auth:18.1.0'
+
+    //timber
+    implementation 'com.jakewharton.timber:timber:4.7.1'
 
 }

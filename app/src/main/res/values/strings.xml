@@ -4,5 +4,20 @@
     <string name="fb_login_protocol_scheme">fb626790644677909</string>
     <string name="server_client_id">AIzaSyAEpkF5DvAkKSIHQeFg8k3M4kGTQduLzEI</string>
     <string name="app_title">Fitrango</string>
+    <string name="login_logo_text">Message is not just Luxury,its way to healthier,happier life.</string>
+    <string name="or">or</string>
+    <string name="condition">By continuing, you agree to our <u>Terms &amp; Conditions</u>and <u>Privacy Statements</u></string>
+    <string name="next_banner">NEXT</string>
+    <string name="loreum_text">Lorem ipsum dolor in amet, consectetur adipiscing elit. Maecenas tempus, aliquet velit lectus.</string>
+    <string name="banner_top_heading">Select the type of massage you want</string>
+    <string name="enter_details">Enter Details</string>
+    <string name="social_signup_error">Please fill the remaining details to complete the sign up process</string>
+    <string name="enter_mobile_no">Enter Mobile No</string>
+    <string name="enter_number">Enter Number</string>
+    <string name="enter_otp">Enter OTP</string>
+    <string name="mobile_hint_text">0000000000</string>
+    <string name="resend_text">Resend OTP in 00:25</string>
+    <string name="dialog_account_succesfull_msg">Your account has been create successfully by pressing done you’ll be taken to a questionnaire which will help us give you a presonalized experience</string>
+    <string name="done_label">DONE</string>
 
 </resources>

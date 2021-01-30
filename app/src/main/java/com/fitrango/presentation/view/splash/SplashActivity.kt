@@ -6,6 +6,7 @@ import android.os.Handler
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
 import com.fitrango.R
+import com.fitrango.presentation.view.banner.BannerActivity
 import com.fitrango.presentation.view.login.LoginActivity
 import javax.inject.Inject
 
@@ -23,7 +24,7 @@ class SplashActivity : AppCompatActivity() {
 
     private fun callNextScreenAfterDelay() {
         Handler().postDelayed(Runnable { /* Create an Intent that will start the Menu-Activity. */
-            var mainIntent = Intent(this@SplashActivity, LoginActivity::class.java)
+            var mainIntent = Intent(this@SplashActivity, BannerActivity::class.java)
             startActivity(mainIntent)
             this.finish()
         }, 3000)

@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="@dimen/dp_20"
+    android:layout_marginRight="@dimen/dp_20"
+    android:layout_marginBottom="@dimen/dp_10"
+    tools:context=".presentation.view.login.LoginActivity">
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_above="@+id/layout_login_layouts"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_title"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textAllCaps="true"
+        android:layout_margin="@dimen/dp_20"
+        android:fontFamily="@font/proxima_nova_bold"
+        android:textSize="@dimen/dp_35"
+        android:gravity="center"
+        android:layout_above="@id/ic_fitrango_logo"
+        />
+
+    <ImageView
+        android:id="@+id/ic_fitrango_logo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/fitrango_logo"
+        android:layout_centerInParent="true"
+    ></ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="@dimen/sp_16"
+            android:textColor="@color/black"
+            android:text="@string/login_logo_text"
+            android:fontFamily="@font/proxima_nova_bold"
+            android:layout_below="@+id/ic_fitrango_logo"
+            android:layout_marginTop="@dimen/dp_16"
+            android:layout_alignParentBottom="true"
+            ></TextView>
+
+
+
+    </RelativeLayout>
+
+<LinearLayout
+    android:id="@+id/layout_login_layouts"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_alignParentBottom="true"
+    >
+    <RelativeLayout
+        android:id="@+id/layout_button_google"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/google_button_background"
+        android:padding="@dimen/dp_10"
+        android:layout_marginBottom="@dimen/dp_10"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GOOGLE"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:fontFamily="@font/proxima_nova_bold"
+            android:layout_centerVertical="true"
+            ></TextView>
+
+        <ImageView
+            android:layout_width="@dimen/dp_30"
+            android:layout_height="@dimen/dp_30"
+            android:src="@drawable/ic_google_logo"
+            android:layout_alignParentRight="true"
+
+            ></ImageView>
+</RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/layout_button_fb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/dp_10"
+        android:background="@drawable/fb_button_background"
+        android:layout_marginTop="@dimen/dp_10"
+        android:layout_marginBottom="@dimen/dp_10"
+
+                >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FACEBOOK"
+            android:textColor="@color/white"
+            android:fontFamily="@font/proxima_nova_bold"
+            android:textSize="18sp"
+            android:layout_centerVertical="true"
+            ></TextView>
+
+        <ImageView
+            android:layout_width="@dimen/dp_30"
+            android:layout_height="@dimen/dp_30"
+            android:src="@drawable/ic_facebook_logo"
+            android:layout_alignParentRight="true"
+
+            ></ImageView>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:background="@color/app_grey"></View>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/or"
+            android:fontFamily="@font/proxima_nova_bold"
+            android:layout_gravity="center_vertical"
+            android:paddingBottom="@dimen/dp_2"
+            android:textColor="@color/light_grey"></TextView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:background="@color/app_grey"></View>
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_button_mobile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/black_button_background"
+        android:padding="@dimen/dp_10"
+        android:layout_marginTop="@dimen/dp_10"
+        android:layout_marginBottom="@dimen/dp_10"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MOBILE NUMBER"
+            android:textSize="18sp"
+            android:fontFamily="@font/proxima_nova_bold"
+            android:textColor="@color/white"
+            android:layout_centerVertical="true"
+            ></TextView>
+
+        <ImageView
+            android:layout_width="@dimen/dp_30"
+            android:layout_height="@dimen/dp_30"
+            android:src="@drawable/ic_smartphone"
+            android:layout_alignParentRight="true"
+
+            ></ImageView>
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/condition"
+        android:gravity="center"
+        android:textColor="@color/light_grey"
+        android:fontFamily="@font/proxima_nova_reg"
+        ></TextView>
+
+
+</LinearLayout>
+
+    <Button
+        android:id="@+id/btn_google"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Google"
+        android:layout_centerInParent="true"
+        />
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/fb_login_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_gravity="center_horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_centerInParent="true"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+</RelativeLayout>
+
+</layout>

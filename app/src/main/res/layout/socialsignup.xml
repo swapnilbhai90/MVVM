@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        idth="match_parent"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/enter_details"
+            android:textAppearance="@style/label_proxima_nova_bold"
+            android:layout_gravity="center"
+            android:textSize="@dimen/sp_18"
+            android:id="@+id/toolbar_title" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+
+        android:text="Please provide the required details"
+        android:textAppearance="@style/label_proxima_nova_bold"
+        app:layout_constraintEnd_toStartOf="@+id/guideline6"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_5"
+        android:gravity="center"
+        android:layout_marginLeft="@dimen/dp_20"
+        android:layout_marginRight="@dimen/dp_20"
+        android:text="@string/social_signup_error"
+        android:textAppearance="@style/label_avenir_medium"
+        android:textColor="@color/red_error_color"
+        app:layout_constraintEnd_toStartOf="@+id/guideline6"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="20dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_end="20dp"
+        />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Name*"
+        android:textAppearance="@style/label_avenir_medium"
+        android:textSize="@dimen/sp_14"
+        android:textColor="@color/light_grey"
+        app:layout_constraintEnd_toStartOf="@+id/guideline6"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_5"
+        android:background="@drawable/editext_round_background"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toStartOf="@+id/guideline6"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <TextView
+        android:id="@+id/label_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email*"
+        android:textAppearance="@style/label_avenir_medium"
+        android:textSize="@dimen/sp_14"
+        android:layout_marginTop="@dimen/dp_10"
+        android:textColor="@color/light_grey"
+        app:layout_constraintEnd_toStartOf="@+id/guideline6"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+
+    <EditText
+        android:id="@+id/edittext_email"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_5"
+        android:background="@drawable/editext_round_background"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        app:layout_constraintEnd_toStartOf="@+id/guideline6"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toBottomOf="@+id/label_email" />
+
+    <TextView
+        android:id="@+id/label_phone_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone Number*"
+        android:textAppearance="@style/label_avenir_medium"
+        android:textSize="@dimen/sp_14"
+        android:layout_marginTop="@dimen/dp_10"
+        android:textColor="@color/light_grey"
+        app:layout_constraintEnd_toStartOf="@+id/guideline6"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toBottomOf="@+id/edittext_email" />
+
+    <EditText
+        android:id="@+id/edt_phone_number"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_5"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toStartOf="@+id/guideline6"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toBottomOf="@+id/label_phone_number" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="+91"
+        android:textAppearance="@style/label_proxima_nova_bold"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/edt_phone_number"
+        app:layout_constraintEnd_toStartOf="@+id/guideline6"
+        app:layout_constraintHorizontal_bias="0.0"
+        android:textSize="@dimen/sp_18"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toTopOf="@+id/edt_phone_number" />
+
+
+    <TextView
+        android:id="@+id/label_dob"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date of Birth*"
+        android:textSize="@dimen/sp_14"
+        android:layout_marginTop="@dimen/dp_10"
+        android:textAppearance="@style/label_avenir_medium"
+        android:textColor="@color/light_grey"
+        app:layout_constraintEnd_toStartOf="@+id/guideline6"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toBottomOf="@+id/edt_phone_number" />
+
+    <EditText
+        android:id="@+id/edt_dob"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_5"
+        android:background="@drawable/editext_round_background"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        android:hint="dd/mm/yyyy"
+        android:textColorHint="@color/light_grey"
+        app:layout_constraintEnd_toStartOf="@+id/guideline6"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toBottomOf="@+id/label_dob" />
+
+    <TextView
+        android:id="@+id/label_gender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gender*"
+        android:textSize="@dimen/sp_14"
+        android:layout_marginTop="@dimen/dp_10"
+        android:textAppearance="@style/label_avenir_medium"
+        android:textColor="@color/light_grey"
+        app:layout_constraintEnd_toStartOf="@+id/guideline6"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toBottomOf="@+id/edt_dob" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toStartOf="@+id/guideline6"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toBottomOf="@+id/label_gender">
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Male"
+            android:button="@drawable/custom_checkbox"
+            android:textColor="@color/black"
+            android:checked="true"
+            android:paddingLeft="@dimen/dp_10"
+            tools:layout_editor_absoluteX="86dp"
+            tools:layout_editor_absoluteY="528dp" />
+
+        <RadioButton
+            android:id="@+id/radio_female"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp_20"
+            android:text="Female"
+            android:paddingLeft="@dimen/dp_10"
+
+            android:button="@drawable/custom_checkbox"
+            android:textColor="@color/black"
+            tools:layout_editor_absoluteX="86dp"
+            tools:layout_editor_absoluteY="528dp" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button_next"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/black_button_background"
+        android:text="NEXT"
+
+        android:textAppearance="@style/label_proxima_nova_bold"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/guideline6"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup2" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>
